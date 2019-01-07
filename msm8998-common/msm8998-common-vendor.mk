@@ -561,7 +561,6 @@ PRODUCT_PACKAGES += \
     uceShimService \
     CNEService \
     com.qualcomm.location \
-    dpmserviceapp \
     qcrilmsgtunnel \
     QtiTelephonyService \
     datastatusnotification \

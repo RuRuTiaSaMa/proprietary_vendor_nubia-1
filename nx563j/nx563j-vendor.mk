@@ -148,16 +148,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/firmware/Generic_unsigned_918_1.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/Generic_unsigned_918_1.ncd \
     vendor/nubia/nx563j/proprietary/vendor/firmware/Generic_unsigned_SY.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/Generic_unsigned_SY.ncd \
     vendor/nubia/nx563j/proprietary/vendor/firmware/Generic_unsigned_fix_p2p_stuck.ncd:$(TARGET_COPY_OUT_VENDOR)/firmware/Generic_unsigned_fix_p2p_stuck.ncd \
-    vendor/nubia/nx563j/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
     vendor/nubia/nx563j/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
-    vendor/nubia/nx563j/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/nubia/nx563j/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/nubia/nx563j/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/nubia/nx563j/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/nubia/nx563j/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/nubia/nx563j/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
-    vendor/nubia/nx563j/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/nubia/nx563j/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
     vendor/nubia/nx563j/proprietary/vendor/lib/hw/camera.vendor.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.msm8998.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/hw/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/consumerir.default.so \
     vendor/nubia/nx563j/proprietary/vendor/lib/libAltek_AF.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAltek_AF.so \
@@ -459,10 +450,11 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libteeclientjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteeclientjni.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libubifocus.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libvideobokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideobokeh.so \
-    vendor/nubia/nx563j/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so
+    vendor/nubia/nx563j/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so\
+vendor/nubia/nx563j/proprietary/vendor/framework/ifaa_fingerprint.jar:$(TARGET_COPY_OUT_VENDOR)/framework/ifaa_fingerprint.jar\
+vendor/nubia/nx563j/proprietary/vendor/app/FingerprintServiceExtension/FingerprintServiceExtension.apk:$(TARGET_COPY_OUT_VENDOR)/app/FingerprintServiceExtension/FingerprintServiceExtension.apk
+
 
 PRODUCT_PACKAGES += \
     libts_detected_face_hal \
     libts_face_beautify_hal \
-    FingerprintServiceExtension \
-    ifaa_fingerprint

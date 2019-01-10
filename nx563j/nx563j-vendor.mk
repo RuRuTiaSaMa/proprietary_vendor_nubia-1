@@ -451,10 +451,10 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libubifocus.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libvideobokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideobokeh.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so\
-vendor/nubia/nx563j/proprietary/vendor/framework/ifaa_fingerprint.jar:$(TARGET_COPY_OUT_VENDOR)/framework/ifaa_fingerprint.jar\
-vendor/nubia/nx563j/proprietary/vendor/app/FingerprintServiceExtension/FingerprintServiceExtension.apk:$(TARGET_COPY_OUT_VENDOR)/app/FingerprintServiceExtension/FingerprintServiceExtension.apk
 
 
 PRODUCT_PACKAGES += \
     libts_detected_face_hal \
     libts_face_beautify_hal \
+    FingerprintServiceExtension \
+    ifaa_fingerprint

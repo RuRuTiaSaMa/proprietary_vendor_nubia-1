@@ -534,7 +534,6 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     embms \
     ims \
-    imssettings \
     uceShimService \
     CNEService \
     com.qualcomm.location \

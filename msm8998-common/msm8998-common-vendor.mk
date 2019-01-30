@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/msm8998-common/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/nubia/msm8998-common/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     vendor/nubia/msm8998-common/proprietary/vendor/framework/qcrilhook.jar:$(TARGET_COPY_OUT_VENDOR)/framework/qcrilhook.jar \
-    vendor/nubia/msm8998-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/nubia/msm8998-common/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/nubia/msm8998-common/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/nubia/msm8998-common/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \

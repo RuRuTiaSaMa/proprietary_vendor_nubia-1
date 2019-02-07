@@ -19,7 +19,7 @@ ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
     vendor/nubia/msm8998-common/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/nubia/msm8998-common/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
-    vendor/nubia/msm8998-common/proprietaryetc/init/dpmd.rc:system/etc/init/dpmd.rc \
+    vendor/nubia/msm8998-common/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
     vendor/nubia/msm8998-common/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:system/etc/permissions/com.qualcomm.qti.imscmservice.xml \
     vendor/nubia/msm8998-common/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/nubia/msm8998-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
